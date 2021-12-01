@@ -17,4 +17,7 @@ There are 4 jupyter notebooks:
 
 ### Notes
 When serializing tensor proto, there is a hardlimit of 2GB. This issue is obtained when trying to encrypt weights directly. To solve this, use np.dsplit() to split the weights into equal arrays, and then encrypt each array individually. To combine them into the original weights, use np.dstack(). Due to limited RAM, I used a dsplit indice of 16.  
-This is applicable for Bob_training.ipynb and Alice_training.ipynb.
+This is applicable for Bob_training.ipynb and Alice_training.ipynb.  
+
+### Dependencies
+See requirements.txt. Can be installed with pip.
