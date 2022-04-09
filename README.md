@@ -23,9 +23,11 @@ This is applicable for Bob_training.ipynb and Alice_training.ipynb.
 See requirements.txt. Can be installed with pip.
 
 ### Please cite the following if you use the code:
+```
 @misc{miarM2DAJR,
   title={Notebook for implementing a simple 2-client model of homomorphic encryption and secure aggregation in Federated Learning},
   author={Dave, Appadoo and Jyotika, Rughoo},
   journal={https://https://github.com/azezezaaa/MIAR_M2/},
   year={2021}
 }
+```
